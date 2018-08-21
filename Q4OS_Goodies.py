@@ -36,30 +36,30 @@ root = Tk()
 root.title("Q4OS Goodies")
 
 labelWelcome = Label(root, text="Welcome to Q4OS Goodies!", font="Helvetica 12 bold")
-labelWelcome.pack(fill=BOTH)
+labelWelcome.pack(side=TOP, fill=BOTH)
 
 labelExp = Label(root, text="A tool that makes easier to access\ncertain management tools of Q4OS.")
-labelExp.pack(fill=BOTH)
+labelExp.pack(side=TOP, fill=BOTH)
 
 buttonWelcome = Button(root, text="Welcome screen", command=q4osWelcome)
-buttonWelcome.pack(fill=BOTH)
+buttonWelcome.pack(side=TOP, fill=BOTH)
 
 buttonAddRepo = Button(root, text="Add repository", command=q4osAddRepo)
-buttonAddRepo.pack(fill=BOTH)
+buttonAddRepo.pack(side=TOP, fill=BOTH)
 
 buttonInstApp = Button(root, text="Install applications", command=q4osInstApp)
-buttonInstApp.pack(fill=BOTH)
+buttonInstApp.pack(side=TOP, fill=BOTH)
 
 buttonUpdateMan = Button(root, text="Update manager", command=q4osUpdateMan)
-buttonUpdateMan.pack(fill=BOTH)
+buttonUpdateMan.pack(side=TOP, fill=BOTH)
 
 buttonUpdateManConf = Button(root, text="Update manager configurations", command=q4osUpdateManConf)
-buttonUpdateManConf.pack(fill=BOTH)
+buttonUpdateManConf.pack(side=TOP, fill=BOTH)
 
 buttonDeskProf = Button(root, text="Desktop profiler", command=q4osDeskProf)
-buttonDeskProf.pack(fill=BOTH)
+buttonDeskProf.pack(side=TOP, fill=BOTH)
 
 buttonLookSwitcher = Button(root, text="Look Switcher", command=q4osLookSwitcher)
-buttonLookSwitcher.pack(fill=BOTH)
+buttonLookSwitcher.pack(side=TOP, fill=BOTH)
 
 root.mainloop()
